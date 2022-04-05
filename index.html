@@ -9,32 +9,29 @@
 
 </head>
 
-<body>
+<body class="body">
     <!--Headers with contact links-->
-    <header class="header">
+    <header class="navbar">
         <!--links-->
         <div class="links" style="color:rgb(157, 206, 66)"> <a href="mailto:roya.jamshidpour@gmail.com">Email</a></div>
 
         <div class="links" style="color:rgb(157, 206, 66)"> <a href="https://github.com/Roya-Jamshidpour">GitHub</a></div>
     
-        <a class="links" href="#contact-me">Contact Me</a>
+        <a class="links" href="#input-form">Contact Me</a>
  
 
     </header>
     
     <br>
 
-<section>
-    <!--Title-->
-
-    <div class="div"><h2 class="name">Roya Jamshidpour</h2></div>
+<!--Title of page-->
+<h1 class="title">Roya Jamshidpour</h1>
 
     <br>
-
-<!--Image-->
+<!--Image of me-->
 
 <div class="image">
-    <img src="https://via.placeholder.com/200"/>
+    <img alt="placeholder image-not to be kept" src="https://via.placeholder.com/200"/>
    
     <p>This will be a photo of me.</p>
 
@@ -44,27 +41,37 @@
 
 <!-- Contact Me block-->
 
-<header class="contact-block">
+<h3 class="contact-block">
 
 
-    <p class="contact-me">Contact Me:</p>
+    <p class="contact-me">Contact Me</p>
 
-<!--Links to contact info-->
+<!--Form to input contact info-->
+
+<form action="/action_page.php" class="input-form">
+
+    <label for="name">Name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email"><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+
+  <br>
+  <br>
+  <br>
+</h3>
+<!-- end of Contact me block -->
 
 
-</header>
+<footer class="footer">
+    <p>roya.jamshidpour@gmail.com</p>
 
-<br>
-<br>
-<br>
-
-<footer class="email">
-<p>
-    roya.jamshidpour@gmail.com
-</p>
 </footer>
 
-</section>
+</body>
+
 
 </html>
 <h1></h1> 
